@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Tube</title>
+</head>
+<body>
+
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="../pages/music.html">Music</a>
+    <a href="../pages/fitness.html">Fitness</a>
+    <a href="../pages/gaming.html">Gaming</a>
+    <a href="./pages/form.html">New Video</a>
+  </nav>
+<hr>
+
+<h2>Add New Video</h2>
+  
+  <form action="action_page.php">
+
+      <label for="videoTitle"><b>Video Title</b></label><br>
+      <input id="name" type="text"><br><br>
+
+      <label for="message"><b>Description</b></label><br>
+      <textarea name="message" rows="7" cols="40"></textarea><br><br>
+
+<h3>Video</h3>
+    <input type="file" id="chooseFile" name="chooseFile"><br><br>
+
+    <select id="videoCollection" name="videoCollection">
+      <option value="choose" selected>Choose Collection</option>
+      <option value="music">Music</option>
+      <option value="fitness">Fitness</option>
+      <option value="gaming">Gaming</option>
+    </select>
+    <br><br>
+      <input type="radio" id="public" name="radiobutton" value="public">
+      <label for="public">Public</label>
+      <input type="radio" id="private" name="radiobutton" value="private">
+      <label for="private">Private</label><br>
+      
+<br><br><br>
+
+<button type="uploadVideo">Upload Video</button>
+  </form>
+</body>
+<br><br>
+
+<footer>
+  <div class="social-media-links">
+    <a href="socialmedia.com">Facebook</a>
+    <a href="socialmedia.com">Instagram</a>
+    <a href="socialmedia.com">Twitter</a>
+  </div>
+  <div class="copyright">
+    &copy; 2023 My Tube
+    </div> 
+  </footer>
+</body>
+</html>

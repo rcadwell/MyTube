@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+/* home page styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+nav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+nav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Form styles */
+form {
+  margin: 50px auto;
+  width: 60%;
+}
+
+label {
+  display: inline-block;
+  width: 150px;
+  font-weight: bold;
+}
+
+input[type="text"], textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+input[type="file"], select, input[type="radio"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type="uploadVideo"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+button[type="uploadVideo"]:hover {
+  background-color: #45a049;
+}
+
+table {
+  width: 100%;
+}
+
+table td {
+  vertical-align: top;
+  text-align: center;
+}
+
+table iframe {
+  width: 100%;
+  height: 240px;
+}
+
+table p {
+  margin: 0;
+  padding: 10px 0;
+}
+
+table p a {
+  color: #333;
+  text-decoration: none;
+}
+
+table p a:hover {
+  color: #4CAF50;
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+}
+
+footer a {
+  color: #fff;
+  margin-right: 10px;
+}
+
+footer div {
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+/* headers */
+
+/* paragraphs */
+
+/* inputs */
+
+/* buttons */
+
+/* font colors */
+
+/* padding */
+
+/* background color */
+
+/* borders */
+
+/* offset position of elements */
+
+/* background images of header */
+
+/* hover effects */
+
+/* form styles */
+
+/* 3 of the 18 videos styled */
+
