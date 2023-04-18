@@ -7,9 +7,18 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
 nav {
   background-color: #333;
+  padding: 10px;
   overflow: hidden;
+  margin-bottom: 30px;
 }
 
 nav a {
@@ -18,6 +27,7 @@ nav a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  margin-right: 10px;
 }
 
 nav a:hover {
@@ -30,63 +40,100 @@ nav a.active {
   color: white;
 }
 
+h2 {
+  color: #333;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  margin: 30px auto;
+  max-width: 800px;
+}
+
+.title {
+  color: #333;
+  padding: 20px;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px #ccc;
+}
+
+p {
+  color: #333;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 30px auto;
+  padding: 10px;
+}
+
 /* Form styles */
 form {
-  margin: 50px auto;
-  width: 60%;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: 20px;
 }
 
 label {
-  display: inline-block;
-  width: 150px;
-  font-weight: bold;
+  color: #333;
 }
 
-input[type="text"], textarea {
+input[type=text], textarea {
   width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
   box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  resize: vertical;
+  margin-top: 6px;
+  margin-bottom: 10px;
 }
 
-input[type="file"], select, input[type="radio"] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
+select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
 }
 
 button[type="uploadVideo"] {
+  padding: 10px 20px;
   background-color: #4CAF50;
   color: white;
-  padding: 12px 20px;
   border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  float: right;
+  border-radius: 5px;
 }
 
 button[type="uploadVideo"]:hover {
-  background-color: #45a049;
+  background-color: #3e8e41;
+}
+
+input[type=submit]:hover {
+  background-color: #4CAF50;
+  color: white;
 }
 
 table {
   width: 100%;
+  border-spacing: 15px 50px;
 }
 
 table td {
   vertical-align: top;
   text-align: center;
+  width: 20%;
 }
 
 table iframe {
-  width: 100%;
-  height: 240px;
+  width: 60%;
+  height: 200px;
+  border-spacing: 15px 50px;
 }
 
 table p {
@@ -118,31 +165,3 @@ footer div {
   margin-top: 20px;
   text-align: center;
 }
-
-
-/* headers */
-
-/* paragraphs */
-
-/* inputs */
-
-/* buttons */
-
-/* font colors */
-
-/* padding */
-
-/* background color */
-
-/* borders */
-
-/* offset position of elements */
-
-/* background images of header */
-
-/* hover effects */
-
-/* form styles */
-
-/* 3 of the 18 videos styled */
-
